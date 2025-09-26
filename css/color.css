@@ -1,0 +1,475 @@
+body.fees 
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+h1
+{
+    font-size: 2rem;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+p
+{
+    margin: 8px 0 ;
+}
+
+.form-container 
+{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: #fffdf6;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"]{
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #d4b67a;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.courses
+{
+    text-align: left;
+    margin-top: 15px;
+}
+
+.courses label
+{
+    display: block;
+    margin: 6px 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.info
+{
+    margin-top: 20px;
+    font-style: italic;
+    color: #b53b3b;
+}
+
+.button
+{
+ margin-top: 20px;
+ padding: 12px 24px;
+ border: none;
+ border-radius: 25px;
+ font-size: 1rem;
+ cursor: pointer;
+ background: #f5b36c;
+ font-weight: bold;
+ transition: 0.3s;
+}
+
+button:hover
+{
+    background-color: #e0b700;
+    color: white;
+}
+
+body.homescreen
+{
+   font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: center;
+    color: #000000;
+    padding: 20px; 
+}
+
+.container 
+{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+.intro
+{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.links
+{
+    display: flex;
+    justify-content: center;
+}
+
+.links a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #a36d2f;
+    border: 2px solid #a36d2f;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+} 
+
+.links a
+{
+    background-color: #a36d2f;
+    color: #fffdf6;
+}
+
+body.months
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+
+.courses
+{
+    display: grid;
+    grid-template-columns: repeat(4.1fr);
+    gap: 20px;
+}
+.course
+{
+    padding: 30px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1,3rem;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.course a:hover
+{
+    transform: scale(1.05);
+}
+.blue
+{
+    background-color: rgb(35, 17, 197);
+}
+.green
+{
+    background-color: green;
+}
+.red
+{
+    background-color: red;
+}
+.orange
+{
+    background-color: orange;
+}
+
+body.weeks
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: center;
+    color: #000000;
+    padding: 20px;
+}
+
+body.firstaidm
+{
+   font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px; 
+}
+
+.main-contentb
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contentb h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    color: #0077cc;
+    margin-bottom: 5px;
+}
+.course-sectionb h2
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    color: #0077cc;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.sewingm
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px; 
+}
+.main-content
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-content h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: green;
+    margin-bottom: 5px;
+}
+.course-section h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: green;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.landscapingm
+{
+     font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px; 
+}
+.main-contentl
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contentl h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: red;
+    margin-bottom: 5px;
+}
+.course-sectionl h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.lifeskillsm
+{
+     font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px; 
+}
+.main-contents
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contents h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: orange;
+    margin-bottom: 5px;
+}
+.course-sections h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: orange;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.childmindingw
+{
+   font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px;   
+}
+.main-contentx
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contentx h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: red;
+    margin-bottom: 5px;
+}
+.course-sectionx h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: red;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.cookingw
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px;
+}
+.main-contentc
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contentc h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: green;
+    margin-bottom: 5px;
+}
+.course-sectionc h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: green;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.gardenw
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px;
+}
+.main-contentg
+{
+    flex: 1;
+    padding: 40px;
+}
+.main-contentg h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color: blue;
+    margin-bottom: 5px;
+}
+.course-sectiong h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    color: blue;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.course-section p,
+.course-section ul
+{
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+.course-section ul{
+    list-style-type: disc;
+    padding-left: 25px;
+}
+
+body.contact
+{
+    font-family: "Poppins", sans-serif;
+    background: #dfd3b7;
+    text-align: left;
+    color: #000000;
+    padding: 20px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fees</title>
+    <link rel="stylesheet" href="./css/color.css">
+</head>
+<body class="fees">
+    <img src="./images/logo-image.jpg" height="250" width="250">
+
+    <h1 class="h1">Total fees:</h1>
+
+    <h3>Please enter your information below</h3>
+    
+
+
+    <form class="form-container">
+        <label for="name"> Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter Name"><br>
+        <label for="number"> Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" placeholder="Enter Number"><br>
+        <label for="email">Email address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter Email"><br>
+
+        <h3>Please select your chosen courses</h3>
+        <div class="courses">
+
+        <input type="checkbox" id="firstAid" value="1500">
+        <label for="firstAid">First Aid R1500</label><br>
+        <input type="checkbox" id="sewing" value="1500">
+        <label for="sewing">Sewing R1500</label><br>
+        <input type="checkbox" id="landscaping" value="1500">
+        <label for="landscaping">Landscaping R1500</label><br>
+        <input type="checkbox" id="lifeSkills" value="1500">
+        <label for="lifeSkills">Life Skills R1500</label><br>
+        <input type="checkbox" id="childMinding" value="750">
+        <label for="childMinding">Child Minding R750</label><br>
+        <input type="checkbox" id="cooking" value="750">
+        <label for="cooking">Cooking R750</label><br>
+        <input type="checkbox" id="gardenMaintenance" value="750">
+        <label for="gardenMaintenance">Garden Maintenance R750</label><br>
+        </div>
+    
+
+    <div class="info">
+        <p>1 course = no discount</p>
+        <p>2 courses = 5% discount</p>
+        <p>3 courses = 10% discount</p>
+        <p>3+ courses = 15% discount</p>
+        <p>+ 15% VAT</p>
+    </div>
+        
+        <input type="submit" value="Submit Bookings" class="button">
+        <button type="button" class="button" onclick="calculateTotal()"> Calculate</button>
+
+    </form>
+
+    <div id="result"></div>
+
+  <script>
+    function calculateTotal() {
+        var checkboxes = document.querySelectorAll(".courses input[type='checkbox']:checked");
+        var total = 0;
+        var count = checkboxes.length;
+
+        checkboxes.forEach(function(box) {
+            total += Number(box.value);
+    });
+
+    var discount = 0;
+    if(count == 2) {
+        discount = 0.05;
+    } else if(count == 3) {
+        discount = 0.10;
+    } else if (count > 3) {
+        discount = 0.15;
+    }
+
+    var discountedTotal = total - (total * discount)
+
+    var VAT = discountedTotal * 0.15;
+    var finalTotal = discountedTotal + VAT;
+
+    document.getElementById("result").innerHTML = 
+    "Courses selected:" + count + "<br>" +
+    "Total before discount: R" + total.toFixed(2) + "<br>" +
+    "Discount:" + (discount * 100) + "%<br>" +
+    "Total after discount: R" + discountedTotal.toFixed(2) + "<br>" +
+    "VAT (15%): R" + VAT.toFixed(2) + "<br>" +
+    "<strong>Final Total: R" + finalTotal.toFixed(2) +"</strong>";
+}
+  </script>
+
+
+</body>
+</html>
